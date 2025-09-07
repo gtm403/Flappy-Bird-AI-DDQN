@@ -30,9 +30,9 @@ def train_ddqn_optimized(
     # OPTIMIZED HYPERPARAMETERS
     hyperparams = {
         'learning_rate': 0.0001,        # Slightly lower for stability
-        'gamma': 0.99,                  # Keep high for long-term planning
-        'epsilon': 0.1 if checkpoint_path else 1.0,  # Lower starting epsilon if continuing
-        'epsilon_min': 0.001,           # Lower minimum for fine-tuning
+        'gamma': 0.99,             
+        'epsilon': 0.1 if checkpoint_path else 1.0,
+        'epsilon_min': 0.001,          
         'epsilon_decay': 0.9995,        # Slower decay for more exploration
         'memory_size': 50000,           # Much larger replay buffer
         'batch_size': 64,               # Larger batch for stability
