@@ -48,15 +48,10 @@ pip install -r requirements.txt
 
 ## Hyperparameters
 - Learning rate: 0.0001-0.00025
-
 - Gamma (discount factor): 0.99
-
 - Epsilon: 1.0 → 0.01 (decaying)
-
 - Replay buffer size: 10,000-50,000
-
 - Batch size: 32-64
-
 - Target network update frequency: 500-1000 steps
 
 
