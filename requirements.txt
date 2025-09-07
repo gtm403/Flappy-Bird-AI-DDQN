@@ -1,0 +1,8 @@
+flappy-bird-gymnasium
+gymnasium
+torch>=1.9.0
+numpy
+matplotlib
+Pillow
+six
+python-dateutil
