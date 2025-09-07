@@ -54,6 +54,20 @@ pip install -r requirements.txt
 - Batch size: 32-64
 - Target network update frequency: 500-1000 steps
 
+## Project Structure
+
+```text
+├── agent.py          # DDQN agent and neural network implementation
+├── train.py          # Basic training script
+├── trainoptimize.py  # Optimized training with advanced features
+├── test.py           # Basic testing script
+├── testwithpipes.py  # Testing with pipe counting metrics
+├── compare.py        # Comparison between observation types
+├── start.py          # Quick start interface
+├── requirements.txt  # Python dependencies
+└── models/           # Directory for saved models (created automatically)
+```
+
 
 
 
