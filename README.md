@@ -4,7 +4,7 @@ A high-performance Double Deep Q-Network (DDQN) implementation that learns to pl
 
 
 
-## 🎯 Performance
+## Performance
 
 - **Best Run**: 425 pipes
 - **Average Performance**: 122 pipes
@@ -13,7 +13,7 @@ A high-performance Double Deep Q-Network (DDQN) implementation that learns to pl
 
 ![Training Progress](training_progress_ep4900.png)
 
-## 🚀 Features
+## Features
 
 - **Double DQN Algorithm**: Reduces overestimation bias compared to standard DQN
 - **Prioritized Experience Replay**: Large buffer (50k-100k samples) for stable learning
@@ -25,7 +25,7 @@ A high-performance Double Deep Q-Network (DDQN) implementation that learns to pl
 - **Model Checkpointing**: Save best models and periodic checkpoints
 - **GPU Support**: Automatic CUDA detection for faster training
 
-## 📋 Requirements
+## Requirements
 
 - Python 3.7+
 - PyTorch 1.9.0+
