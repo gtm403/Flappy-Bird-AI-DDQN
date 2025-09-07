@@ -35,7 +35,7 @@ A Double Deep Q-Network (DDQN) implementation that learns to play Flappy Bird us
 - NumPy
 - Matplotlib
 
-## 🛠️ Installation
+## Installation
 
 1. Clone the repository:
 ```bash
