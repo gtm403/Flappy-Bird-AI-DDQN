@@ -46,16 +46,18 @@ pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-## Project Structure
-├── agent.py          # DDQN agent and neural network implementation
-├── train.py          # Basic training script
-├── trainoptimize.py  # Optimized training with advanced features
-├── test.py           # Basic testing script
-├── testwithpipes.py  # Testing with pipe counting metrics
-├── compare.py        # Comparison between observation types
-├── start.py          # Quick start interface
-├── requirements.txt  # Python dependencies
-└── models/           # Directory for saved models (created automatically)
+## Hyperparameters
+- Learning rate: 0.0001-0.00025
+
+- Gamma (discount factor): 0.99
+
+- Epsilon: 1.0 → 0.01 (decaying)
+
+- Replay buffer size: 10,000-50,000
+
+- Batch size: 32-64
+
+- Target network update frequency: 500-1000 steps
 
 
 
