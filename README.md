@@ -33,6 +33,9 @@ Double Deep Q-Network (DDQN) agents that learn to play Flappy Bird using the fla
 - flappy-bird-gymnasium
 - NumPy
 - Matplotlib
+- Pillow
+- six
+- python-dateutil
 
 ## Installation
 
