@@ -41,11 +41,15 @@ Double Deep Q-Network (DDQN) agents that learn to play Flappy Bird using the fla
 git clone https://github.com/gtm403/Flappy-Bird-AI-DDQN.git
 cd Flappy-Bird-AI-DDQN
 
-# install dependencies
+#install dependencies
 pip install --upgrade pip
 pip install -r requirements.txt
+```
 
 ## Training
+
+
+
 
 
 
