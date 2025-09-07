@@ -11,7 +11,7 @@ A Double Deep Q-Network (DDQN) implementation that learns to play Flappy Bird us
 - **Training Time**: 5000 episodes
 
 
-<img width="692" height="577" alt="image" src="https://github.com/user-attachments/assets/1f9cde10-1559-4f5a-a235-4005cd1a9c10" />
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/1f9cde10-1559-4f5a-a235-4005cd1a9c10" />
 
 
 ## Features
