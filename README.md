@@ -1,6 +1,6 @@
 # Flappy Bird DDQN Agent
 
-A Double Deep Q-Network (DDQN) implementation that learns to play Flappy Bird using reinforcement learning.
+Double Deep Q-Network (DDQN) agents that learn to play Flappy Bird using the flappy_bird_gymnasium environment.
 
 ![Demo](./Screen%20Recording%202025-09-07%20091911.gif)
 
@@ -21,10 +21,9 @@ A Double Deep Q-Network (DDQN) implementation that learns to play Flappy Bird us
 - **Dual Observation Modes**: 
   - Standard (12 features) - Recommended
   - LIDAR (180 features) - Experimental
-- **Comprehensive Training Suite**: Multiple training scripts for different objectives
 - **Detailed Performance Analysis**: Track both score and pipe count
 - **Model Checkpointing**: Save best models and periodic checkpoints
-- **GPU Support**: Automatic CUDA detection for faster training
+- **GPU Support**: Automatic CUDA detection for faster training; if you have a CUDA GPU, install a CUDA-enabled PyTorch build
 
 ## Requirements
 
@@ -45,4 +44,8 @@ cd Flappy-Bird-AI-DDQN
 # install dependencies
 pip install --upgrade pip
 pip install -r requirements.txt
+
+## Training
+
+
 
