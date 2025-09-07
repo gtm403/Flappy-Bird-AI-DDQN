@@ -39,5 +39,5 @@ A Double Deep Q-Network (DDQN) implementation that learns to play Flappy Bird us
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/flappy-bird-ddqn.git
+git clone https://github.com/gtm403/flappy-bird-ddqn.git
 cd flappy-bird-ddqn
