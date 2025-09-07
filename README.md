@@ -1,15 +1,14 @@
 # Flappy Bird DDQN Agent
 
-A high-performance Double Deep Q-Network (DDQN) implementation that learns to play Flappy Bird using reinforcement learning. The agent achieves superhuman performance with a record of **425 pipes** and averages over 100 pipes per game.
+A Double Deep Q-Network (DDQN) implementation that learns to play Flappy Bird using reinforcement learning.
 
 ![Demo](./Screen%20Recording%202025-09-07%20091911.gif)
 
-## Performance
+## Performance of Best Model
 
 - **Best Run**: 425 pipes
-- **Average Performance**: 122 pipes
-- **Training Time**: ~10 minutes for 5000 episodes
-- **Peak Performance Episode**: 4890 (109 pipes during training)
+- **Average Performance**: 122 pipes over 20 episodes
+- **Training Time**: 5000 episodes
 
 
 
